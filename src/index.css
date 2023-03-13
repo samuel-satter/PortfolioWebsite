@@ -20,9 +20,9 @@
 
     --transition: all 400ms ease;
 
-    --container-width-small: 75%;
-    --container-width-medium: 85%;
-    --container-width-large: 90%;
+    --container-width-lg: 75%;
+    --container-width-md: 85%;
+    --container-width-sm: 90%;
 }
 
 html {
@@ -41,7 +41,7 @@ body {
 }
 
 .container {
-    width: var(--container-width-large);
+    width: var(--container-width-lg);
     margin: 0 auto;
 }
 
@@ -111,7 +111,7 @@ img {
 
 @media screen and (max-width: 1024px) {
     .container {
-        width: var(--container-width-medium);
+        width: var(--container-width-md);
     }
     section {
         margin-top: 6rem;
@@ -121,10 +121,10 @@ img {
 
 @media screen and (max-width: 600px) {
     .container {
-        width: var(--container-width-small);
+        width: var(--container-width-sm);
     }
-    section {
-        margin-top: 2rem;
+    section > h2{
+        margin-bottom: 2rem;
     }
 }
 
