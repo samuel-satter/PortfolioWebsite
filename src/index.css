@@ -55,6 +55,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2,
@@ -101,6 +102,11 @@ a:hover {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-background);
+}
+
+.light-mode{
+    background-color: var(--color-light);
+    color: var(--color-primary);
 }
 
 img {
